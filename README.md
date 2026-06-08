@@ -1,8 +1,13 @@
 # promptset-audit
 
+[![CI](https://github.com/Edemckb/promptset-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/Edemckb/promptset-audit/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 `promptset-audit` is a dependency-free command-line tool for reviewing JSONL prompt datasets used in image-generation experiments.
 
 It validates records, identifies duplicate prompts, checks common generation fields, and creates deterministic train/validation splits without uploading the dataset.
+
+This is an independent community project and is not affiliated with or endorsed by Hugging Face.
 
 ## Why this exists
 
@@ -66,4 +71,3 @@ python -m unittest discover -s tests -v
 ## License
 
 MIT
-
